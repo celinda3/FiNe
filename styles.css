@@ -377,5 +377,70 @@ footer {
   height: 60px;
 }
 
+/* Make the layout responsive */
+@media screen and (max-width: 768px) {
+    body {
+        background-attachment: scroll;
+    }
+
+    #secciones {
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+/* Adjust font sizes and margins for smaller screens */
+@media screen and (max-width: 480px) {
+    .extraligera {
+        font-size: 14px;
+    }
+
+    .big {
+        font-size: 16px;
+    }
+
+    .anuncio,
+    .anuncio1,
+    h4,
+    .atencion {
+        font-size: 16px;
+    }
+
+    /* Adjust padding and margin for smaller screens */
+    header {
+        padding: 10px;
+    }
+
+    .nav-links {
+        font-size: 14px;
+    }
+
+    #fisioterapeuta {
+        width: 100%;
+        float: none;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    #secciones {
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+/* Make the footer responsive */
+@media screen and (max-width: 768px) {
+    footer {
+        padding-left: 20px;
+    }
+
+    .pie_pagina {
+        margin-right: 20px;
+    }
+}
 
   
