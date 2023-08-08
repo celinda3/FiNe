@@ -1,0 +1,253 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Foldit:wght@600&family=Hind:wght@600&family=Open+Sans:ital,wght@0,300;1,600&family=Roboto+Condensed:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <title>FiNe_page</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Foldit:wght@600&family=Open+Sans:ital,wght@1,600&family=Roboto+Condensed:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Foldit:wght@600&family=Hind:wght@600&family=Open+Sans:ital,wght@1,600&family=Roboto+Condensed:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Foldit:wght@600&family=Hind:wght@600&family=Open+Sans:ital,wght@0,300;1,600&family=Roboto+Condensed:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Foldit:wght@600&family=Hind:wght@600&family=Lilita+One&family=Open+Sans:ital,wght@0,300;1,600&family=Roboto+Condensed:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Foldit:wght@600&family=Hind:wght@600&family=Lilita+One&family=Open+Sans:ital,wght@0,300;1,600&family=Roboto+Condensed:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax /libs/font-awesome/6.4.0-beta3/css/all.min.css"> 
+  <header>
+    <img id="logo" src="ORGANIZACION.png">
+    <nav id="navbar">
+      <ul class="nav-links">
+        <li><a href="#nosotros" onclick="playSound()">Nosotros</a></li>
+        <li><a href="#contacto" onclick="playSound()">Contacto</a></li>
+        <li><a href="#ayuda" onclick="playSound()">Ayuda</a></li>
+        <li><a href="registro.html" onclick="playSound()"><i class="ri-user-fill"></i></a></li>
+        <li><a href="#productos_general" onclick="playSound()"><i class="ri-shopping-cart-2-fill"></i></a></li>
+      </ul>
+    </nav>
+  </header>
+  <audio id="buttonSound" src="Sonido/boton.mp3"></audio>
+  <script>
+    function playSound() {
+    var audio = document.getElementById('buttonSound');
+    audio.play();
+    }
+  </script>
+  <body>
+    <div id="secciones">
+      <section id="nosotros">
+        <img id="fisioterapeuta" src="perfect modificada.png" width="300px"> 
+
+        <p class="extraligera">La Dra. Ana Sophia Bogantes Toledo es una Fisioterapeuta, graduada de la Universidad Santa Paula en el 2010 como Licenciada en Terapia Física y Rehabilitación, inscrita en el Colegio de Terapeutas de Costa Rica código 457. La Dra. Renata es la Fundadora y dueña de la clínica de terapia física y rehabilitación, cuya institución tiene la visión de proveer a sus pacientes y familiares un tratamiento innovador basado en técnicas fisioterapéuticas establecidas. Como resultado a esto su clínica tiene un balance en el uso de equipos terapéuticos y tratamiento personalizado, enfocado en el profesionalismo y el cuidado de la salud ofreciendo al mismo tiempo un ambiente relajado para el paciente y los miembros de su familia.</p>
+        <p class="extraligera">
+          Soy Fisioterapeuta graduada de la Universidad Santa Paula, con una especialidad en TMO (Terapia Manual Ortopédica). Me encargo principalmente del tratamiento de lesiones musculoesqueléticas. Así como de rehabilitación mediante el ejercicio y entrenamiento individualizado en personas con alguna deficiencia estructural o funcional. Mi objetivo principal es lograr que los pacientes puedan recuperarse de la manera más eficiente posible y con la máxima funcionalidad para mantener una buena calidad de vida.
+        </p>
+        <h3>
+          Títulos:
+        </h3>
+        <p class="extraligera">
+          Especialista en Terapia Manual Ortopédica, Universidad Santa Paula, Abril 2017 Abril 2019. Licenciatura en Terapia Física, Universidad Santa Paula, Enero 2014 Febrero 2015. Bachillerato en Terapia Física, Universidad Santa Paula, Mayo 2011 Diciembre2013.
+        </p>
+        <h3>
+          Cursos:
+        </h3>
+        <i class="fa-regular fa-calendar-check"></i>
+        <p class="extraligera">
+          Punción Seca Colegio de Terapeutas de Costa Rica Noviembre 2016. Principios Básicos de Prescripción del Ejercicio, Universidad Santa Paula, Agosto 2016. Kinesiotaping KT1 y KT2 Asociación Internacional de Kinesiotaping Setiembre 2014. Técnicas de Masoterapia Universidad Santa Paula Agosto 2013.
+        </p>
+        <video class="video" src="video de pagina.mp4" width="640" height="360" controls autoplay loop></video>
+      </section>
+      <section id="servicios">
+        <p class="extraligera">La terapia de Neurodesarrollo es una especialidad de la rehabilitacion que aborda todos los aspectos del desarrollo neurológico que implican la formación y maduración del sistema nervioso desde los primeros estadios de la formación embrionaria para culminar en la adolescencia.</p>
+      </section>
+      <section id="producto">
+        <div class="fisioterapia">
+          <ul>
+            <li>
+              <img src="imagenes en secuencia/rehabilitacion con Kinesiotape.png" alt="">
+            </li>
+            <li>
+              <img src="imagenes en secuencia/rehabilitacion de cervicales.png" alt="">
+            </li>
+            <li>
+              <img src="imagenes en secuencia/rehabilitacion de columna vertebral.png" alt="">
+            </li>
+            <li>
+              <img src="imagenes en secuencia/rehabilitacion de piernas.png" alt="">
+            </li>
+            <li>
+              <img src="imagenes en secuencia/rehabilitacion de retropié, parte media y antepié.png" alt="">
+            </li>
+            <li>
+              <img src="imagenes en secuencia/rehabilitacion de rodilla.png" alt="">
+            </li>
+          </ul>
+          <p class="anuncio1">Contamos con los mejores instrumentos en fisioterapia en compañia de una experta en el tema, la Doctora "Ana" fundadora de la clinica FiNe.
+          </p>
+          <p class="anuncio">
+            Ofrecemos el servicio de fisioterapia y neurodesarrollo con los mejores expertos en el tema, un equipo de selección por la Lic. Ana. 
+          </p>
+          <h4> ATENCIÓN</h4>
+          <p class="atencion">
+            Si quiere agendar una cita o consultar más información de click al siguiente icono.
+          </p>
+          <a class="calendario" href="agendacita.html"><i class="ri-calendar-check-fill ri-6x"></i></a>
+          <p class="big">
+            ¡TE INVITAMOS A COMPRAR EN LINEA EQUIPOS Y CONSUMIBLES PARA FISIOTERAPIA QUE NECESITES, ¡HASTA LA PUERTA DE TÚ CASA!
+          </p>
+        </div>
+        <div id="productos_general">
+          <h2>NUESTROS PRODUCTOS</h2>
+          <div id="productos_venta"> 
+            <div class="slide">
+              <a href="compra.html"><img id="aparato_1" src="Diadinámicas..png"></a> 
+              <p>Diadinámicas</p>
+              <p>$ 30000 MXN</p>
+            </div>
+            <div class="slide">
+              <a href="compra2.html"><img id="aparato_2" src="Diatermia..png"></a>
+              <p>Diatermia</p>
+              <p>$ 18500 MXN</p>
+            </div>
+            <div class="slide">
+              <a href="compra3.html"><img id="aparato_3" src="Banco de abdominales.png"></a>
+              <p>Banco de abdominales</p>
+              <p>$ 6200 MXN</p>
+            </div>
+            <div class="slide">
+              <a href="compra4.html"><img id="aparato_4" src="Láser infrarrojos..png"></a>
+              <p>Laser infrarrojo</p>
+              <p>$ 25299 MXN</p>
+            </div>
+            <div class="slide">
+              <a href="compra5.html"><img id="aparato._5" src="Microondas.png"></a>
+              <p>Microondas</p>
+              <p>$ 54000 MXN</p>
+            </div>
+            <div class="slide">
+              <a href="compra6.html"><img id="aparato_6" src="Ondas-de-choque-png.png"></a>
+              <p>Ondas de choque</p>
+              <p>$ 14889 MXN</p>
+            </div>
+            <div class="slide">
+              <a href="compra7.html"><img id="aparato_7" src="Ultrasonidos..jpg"></a>
+              <p>Ultrasonido</p>
+              <p>$ 65200 MXN</p>
+            </div>
+            <div class="slide">
+              <a href="compra8.html"><img id="aparato_8" src="Ultrasonidos..png"></a>
+              <p>Doble ultrasonido</p>
+              <p>$ 92000 MXN</p>
+            </div>
+            <div class="slide">
+              <a href="compra9.html"><img id="aparato_9" src="Bicicletas ergometricas.png"></a>
+              <p>Bicicleta ergometrica</p>
+              <p>$ 5200 MXN</p>
+            </div>
+            <div class="slide">
+              <a href="compra10.html"><img id="aparato_10" src="Camillas hidraulicas.png"></a>
+              <p>Camilla hidraulica</p>
+              <p>$ 5420 MXN</p>
+            </div>
+            <div class="slide">
+              <a href="compra10.html"><img id="aparato_11" src="Camillas.png"></a>
+              <p>Camilla</p>
+              <p>$ 2899 MXN</p>
+            </div>
+            <div class="slide">
+              <a href="compra10.html"><img id="aparato_12" src="Crioterapia.png"></a>
+              <p>Crioterapia</p>
+              <p>$ 32000 MXN</p>
+            </div>
+            <div class="slide">
+              <a href="compra10.html"><img id="aparato_13" src="Isocineticos.png"></a>
+              <p>Isocineticos</p>
+              <p>$ 19200 MXN</p>
+            </div>
+            <div class="slide">
+              <a href="compra10.html"><img id="aparato_14" src="Silla ergonomica.jpg"></a>
+              <p>Silla ergonomica</p>
+              <p>$ 3200 MXN</p>
+            </div>
+            <div class="slide">
+              <a href="compra10.html"><img id="aparato_15" src="Ejercitador de tobillo.png"></a>
+              <p>Ejercitador de tobillo</p>
+              <p>$ 2520 MXN</p>
+            </div>
+            <div class="slide">
+              <a href="compra10.html"><img id="aparato_16" src="Rueda de hombro.jpg"></a>
+              <p>Rueda de hombro</p>
+              <p>$ 5420 MXN</p>
+            </div>
+            <div class="slide"> <!--Agregar otra imagen-->
+              <a href="compra10.html"><img id="aparato_16" src="Beurer EM49 - Electroestimulador digital.png"></a>
+              <p>Beurer EM49 - Electroestimulador digital</p>
+              <p>$ 19500 MXN</p>
+            </div>
+            <div class="slide"> <!--Agregar otra imagen-->
+              <a href="compra10.html"><img id="aparato_16" src="Compex Fit 1.0 Electroestimulador, Unisex.png"></a>
+              <p>Compex Fit 1.0 Electroestimulador, Unisex</p>
+              <p>$ 21000 MXN</p>              
+            </div>
+          </div>
+        </div>
+      </section> 
+      <section id="ayuda">
+        <h2>PREGUNTAS FRECUENTES</h2>
+        <div class="faq-item">
+          <h3>¿El envío de los productos es a todo México?</h3>
+          <p>Si, los envíos de nuestros productos son a todo México.</p>
+        </div>
+        <div class="faq-item">
+          <h3>¿Los envíos tienen costo extra?</h3>
+          <p>Se añade un costo extra si los envíos son menores a $300.00 MXN. </p>
+        </div>
+        <div class="faq-item">
+          <h3>¿Aceptan devoluciones?</h3>
+          <p>Si, en un periodo de 30 dias después de su compra.</p>
+        </div> 
+        <div class="faq-item">
+          <h3>¿Cuentan con garantia en sus productos?</h3>
+          <p>Todos nuestros productos tienen una garantía de 1 año.</p>
+        </div>
+        <div class="faq-item">
+          <h3>¿Cómo puedo tener certeza de que la compra fue realizada correctamente?</h3>
+          <p>Una vez realizada la compra se enviará un correo electrónico para confirmar la compra de su pedido, además de que aparecerá un mensaje en su pantalla que dirá "compra exitosa".</p>
+        </div>
+      </section>      
+      <section id="contacto">
+        <div id="numeros">
+          <h1>CONTACTO</h1>
+        </div>
+        <div id="contacto-contenido">
+          <div id="telefono">
+            <a class="social-media" href="tel:01-498-644-7" target="_blank"><i class="ri-phone-fill"></i>Llámanos</a>
+            <a class="social-media" href="tel:777-895-562-1" target="_blank"><i class="ri-whatsapp-fill"></i>Envíanos un Whatsapp</a>
+            <a class="social-media" href="mailto:FiNesalud@gmail.com" target="_blank"><i class="ri-mail-fill"></i>Manda un Correo Electrónico</a>
+          </div>
+          <div id="mapagoogle">
+            <p>Buscanos en nuestra clínica</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60407.65134853201!2d-99.21384655693805!3d18.86585486923659!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce75e8d4e2e043%3A0x83c71afccd75580b!2sCL%C3%8DNICA%20DE%20FISIOTERAPIA!5e0!3m2!1ses!2smx!4v1687110188132!5m2!1ses!2smx" width="390" height="240" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+  <footer>
+   <p class="pie_pagina">© 2023 copyright Celinda Martinez Hernández.com</p>
+   <p class="pie_pagina">Cédula Profesional de la Doctora Ana: <a href="cedula.png">12145889</a></p>
+  </footer>
+</html>
