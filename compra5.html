@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  
+  <body>
+    </div>
+    <img src="Microondas.png" alt="producto1">
+    <div class="container">
+      <h1>Pago del Producto</h1>
+      <form id="payment-form" action="procesar_pago.php" method="POST">
+        <div class="form-group">
+          <label for="card-number">Número de Tarjeta</label>
+          <input type="text" id="card-number" name="card-number" required>
+        </div>
+        <div class="form-group">
+          <label for="expiry">Fecha de Vencimiento</label>
+          <input type="text" id="card-expiry" name="card-expiry" required>
+        </div>
+        <div class="form-group">
+          <label for="cvv">Código de Seguridad (CVV)</label>
+          <input type="text" id="card-cvv" name="card-cvv" required>
+        </div>
+        <div class="form-group">
+          <label for="delivery-address">Dirección de Entrega</label>
+          <input type="text" id="delivery-address" name="delivery-address" required>
+        </div>
+        <div class="form-group">
+          <label for="quantity">Cantidad de Productos</label>
+          <input type="number" id="quantity" name="quantity" required>
+        </div>
+        <div class="form-group">
+          <label for="phone">Número de Teléfono</label>
+          <input type="tel" id="phone" name="phone" required>
+        </div>
+        <title>Pago del Producto</title>
+        <link rel="stylesheet" href="stylesc2.css">
+        <script>
+          function mostrarMensaje() {
+            alert("¡Listo! El pago se ha realizado correctamente.");
+          }
+        </script>
+            <!-- ... Campos del formulario ... -->
+            <button type="submit" class="payment-button" onclick="mostrarMensaje()">Pagar Producto</button>
+          </form>
+          <div class="tracking-number hidden">
+            <p class="tracking-label">Número de Seguimiento de Producto:</p>
+            <p class="tracking-code">[Número de Seguimiento]</p>
+          </div>
+      </form>
+      <div class="tracking-number hidden">
+        <p class="tracking-label">Número de Seguimiento de Producto:</p>
+        <p class="tracking-code">[Número de Seguimiento]</p>
+      </div>
+    </div>
+  </body>
+</html>
+
+
+ 
+  
+  
