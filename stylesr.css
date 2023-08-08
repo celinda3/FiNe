@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient( 120deg, rgba(199, 246, 212, 0.6), rgba(163, 230, 196, 0.6), rgba(141, 217, 178, 0.6)), url(https://www.debate.com.mx/__export/1663978991262/sites/debate/img/2022/09/23/fisioterapia_1.jpg_172596871.jpg); /* Color de fondo de la página */
+    background-size: cover;
+    background-attachment: fixed; 
+    margin: 0;
+    padding: 0;
+}
+  
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+  
+form {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+  
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+  
+input[type="text"],
+input[type="date"],
+input[type="email"],
+input[type="tel"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+  
+input[type="submit"] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+  
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+  
